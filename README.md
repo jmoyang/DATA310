@@ -1,4 +1,4 @@
 # DATA310
 
 ## Assignment 1 
-* [Assignment 1 (Feb. 5th)](Assignment1.md)
+* [Assignment 1 (Feb. 5th)](Feb_5th_Assignment.md)
