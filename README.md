@@ -1,5 +1,5 @@
 # DATA310
 
-## Assignment 1 
-* [Assignment 1 (Feb. 5th)](Feb_5th_Assignment.md)
-* [Assignment 2 (Feb. 8th)](Assignment2.md)
+## Informal Responses
+* [Informal Responses 1 (Feb. 5th/Updated)](Feb_5th_Assignment.md)
+* [Informal Responses 2 (Feb. 8th)](Assignment2.md)
