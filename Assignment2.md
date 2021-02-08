@@ -18,3 +18,9 @@
   * There 10,000 of 28X28 images as a test set.
 
 * Estimate 
+  * [0.07451967895030975, 0.9771999716758728] The return was .977 or 97.7%, which means that the program is getting the test data correct at 97% accuracy. 
+  
+### 5) np.argmax()
+  * Using np.argmax() on the predictions output, the number with the highest probability form the test labels dataset was "1". 
+  
+### 6) Plot image and histogram
