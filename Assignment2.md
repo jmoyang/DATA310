@@ -22,7 +22,7 @@
   
 ### 5) np.argmax()
   * ~Using np.argmax() on the predictions output, the number with the highest probability form the test labels dataset was "1".~ 
-   * The highest probability was the number "2"
+   * The highest probability was the number "7" with the index "0"
   
 ### 6) Plot image and histogram
   * ![](assignment_2.png)
