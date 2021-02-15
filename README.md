@@ -7,3 +7,6 @@ Hello. My name is J.Mo Yang and I am from Seoul, South Korea. I am a current sen
 ## Informal Responses
 * [Informal Responses 1 (Feb. 5th/Updated)](Feb_5th_Assignment.md)
 * [Informal Responses 2 (Feb. 8th/Updated)](Assignment2.md)
+
+## Project
+* [Mini Project 1](MiniProject1.md) 
