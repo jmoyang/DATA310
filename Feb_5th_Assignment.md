@@ -1,4 +1,4 @@
-## Informal Response (Feb.5th)
+## Informal Response 1 (Feb.5th)
 
 1) Difference between traditional programming and ML
 * Traditional programming has rules and data that goes and the answers that comes out. On the other hand, in machine learning, we input answers and data for the machine to figure out the rules. Therefore, in machine learning programmers get a lot of data and establish a rule that will match one to the other. Neural networks deal in probability, give an likelihood of an answer being correct.  ML has parameters instead of hardcoded values, but it learns those parameters from the data over time. Therefore, it is a general function that learns how to behave. 
