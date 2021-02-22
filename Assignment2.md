@@ -1,4 +1,4 @@
-# Assingment 2 (Feb. 8th/UPDATED on 10th)
+# Informal Response 2 (Feb. 8th/UPDATED on 10th)
 
 ### 1) Trainning vs Testing Label
 * The training data and labels are used to train the programs to determine the characteristics of the material, which in Maroney's case is shoes. Therefore, the training images are used to train the program and the testing images are used to test the program to make sure the program knows what makes the image an imgae of a shoe or not. Also, there is no point of showing the same images to the program to test, because the program already knows that the images used during training are shoes (images from testing should be different from training). 
