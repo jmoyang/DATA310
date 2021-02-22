@@ -14,3 +14,23 @@
 <img src="03.png" width="500" height="400">
 
 3. filter = [ [1, -1, 0], [2, -1, -1], [2, -1, -1]]
+* Changed the filters to have a zero isolated on the top right and repeating sequnce in the bottom two rows. The filter put an emphasis on diagonal line going from top left to the right bottom corner like filter 2. Howver, it also created an emphasis on left side and the bottom third of the photo. 
+
+#### What are you functionally accomplishing as you apply the filter to your original array (see the following snippet for reference)?
+* The filters are creating 3X3 box that "hovers" over the pixels of the images to detect the edges and the lines of the image that was inputted. The pixels of the images are multiplied by the numbers in the filters to show emphasis on the lines and edges on the image (when the match is found, it is then mapped out onto the ouput image). 
+  * 4X4 image with a 3X3 filter will create an output of 2X2 image  
+
+
+#### Why is the application of a convolving filter to an image useful for computer vision? 
+* I think the reason for the usage of convoling filter is to dumb down the image for the computer to process and learn the pattern. Also, it is to make it easier for the computer to learn by creating more contrast on the image. (Emphasizing the outlines of the image for the computer to learn) 
+
+#### Apply a 2x2 filter to one of your convolved images, and plot the result. In effect what have you accomplished by applying this filter?
+
+#### Does there seem to be a logic (i.e. maximizing, averaging or minimizing values?) associated with the pooling filter provided in the example exercise (convolutions & pooling)?
+
+#### Did the resulting image increase in size or decrease? Why would this method be useful?
+
+#### Convolve the 3x3 filter over the 9x9 matrix and provide the resulting matrix.
+| 0 | 3 | 0 |
+| 1 | 3 | 1 |
+| 0 | 3 | 0 |
