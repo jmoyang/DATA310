@@ -1,5 +1,7 @@
 # Informal Reponse 3 (Feb. 21st) 
 
+## Stairs
+
 #### Modify the existing filter and if needed the associated weight in order to apply your new filters to the image 3 times. 
 <img src="0x-4x0.png" width="500" height="400">
 
@@ -15,6 +17,28 @@
 
 3. filter = [ [1, -1, 0], [2, -1, -1], [2, -1, -1]]
 * Changed the filters to have a zero isolated on the top right and repeating sequnce in the bottom two rows. The filter put an emphasis on diagonal line going from top left to the right bottom corner like filter 2. Howver, it also created an emphasis on left side and the bottom third of the photo. 
+
+## Own Image 
+
+#### Orginial Image 
+<img src="own_image.png" width="500" height="400">
+
+#### Filter Image 
+
+1. filter = [ [-1, -1, -1], [0, 0, 0], [1, 1, 1]]
+* This filter put a huge emphasis on the right side of the photo, as if the light is hitting from the right side of the photo, emphasizing where the light first hits. In other words, my right side face and hair was heavily emphasized compared to the left side of the photo. 
+<img src="own_image(-1-1-1).png" width="500" height="400">
+
+
+2. filter = [ [-2, 0, 2], [-2, 0, 2], [-2, 0, 2]]
+* This filter put an emphasis on outlines of my facial feature much like the filter below. However, it seems like as if the light is hitting my face from the below, putting an emphasis below my nostrils, lips, eyes and forehead. 
+<img src="own_image(-202).png" width="500" height="400">
+
+
+3. filter = [ [0, 1, 0], [1, -4, 1], [0, 1, 0]]
+* This filter emphasized outlines of my facial features.
+<img src="own_image(1-41).png" width="500" height="400">
+
 
 #### What are you functionally accomplishing as you apply the filter to your original array (see the following snippet for reference)?
 * The filters are creating 3X3 box that "hovers" over the pixels of the images to detect the edges and the lines of the image that was inputted. The pixels of the images are multiplied by the numbers in the filters to show emphasis on the lines and edges on the image (when the match is found, it is then mapped out onto the ouput image). 
