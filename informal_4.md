@@ -30,11 +30,11 @@ Why would we include more than one filter? How many filters did you assign as pa
 ### The 10 most accurate results (use absolute value)
 * The Mean Squared Error is:  581.712493627384
 
-In which percentile do the 10 most accurate predictions reside? Did your model trend towards over or under predicting home values?
+### In which percentile do the 10 most accurate predictions reside? Did your model trend towards over or under predicting home values?
 * The ten most accurate predictions resided in between [$470,858 - $1,664,633], [2.8th - 95th percentile]. The prices that were on zillow are around [33th - 87th percentile]. 271 homes costed less than the predicted price and 51 costed more, hence over predicted. 
 
-Which feature appears to be the most significant predictor in the above cases?
-I am not too sure since location plays a huge role in the prices of homes. 
+### Which feature appears to be the most significant predictor in the above cases?
+* I am not too sure since location plays a huge role in the prices of homes. 
 
 Stretch goal: calculate the MAE and compare with your MSE results
 
