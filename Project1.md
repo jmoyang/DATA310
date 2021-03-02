@@ -1,36 +1,22 @@
-# Project 1
+# Project 1 (J.Mo Yang)
 
-### Select a city and scrape as many observations as possible from zillow. Try to obtain at least 400 observations from your selected location.
+### Selected City: 
+* #### Washington D.C
+    * I have originally had 400 data points scrapped from Zillow. However, there were 8 data points with missing information (a couple being a studio and others missing number of bath and bedrooms). Therefore, I have dropped the 8 data points, leaving us with a total of 392 data points with its price, number of beds, baths and the square footage of the house. The descriptoin of the data points are as shown below. 
+    * | Statistics | Price | # of Bed | # of Bath | Sqft |
+      |------------|-------|----------|-----------|------|
+      | Mean| $1,272,951 | 2.71 | 2.47 | 1,730.82|
+      | Min | 25000 | 1 | 1 | 616 | 
+      | 25% | 423,787.5 | 2 | 2 | 996 |
+      | 50% | 619,900 | 2 | 2 | 1454 |
+      | 75% | 894,000 | 3 | 3 | 1878 |
+      | Max |  18,000,000 | 8 | 11 | 10823 | 
 
 ### Clean the housing data you obtained and create a number of usable features (independent variables) and targets (dependent variables). Set price as the response variable, and then set numbers of beds, number of bathrooms and total square footage as the predictors.
 
 ### Following the previous model you specified (6 houses in Mathews), import your new data set and train a new model on your target and features.
 ### Write a one and a half to two page report on your results and include the following.
 ### A description of the housing data you scraped from zillow
-print(homes.mean())
-prices     1,272,951
-no_beds    2.713555
-baths      2.475703
-sqft       1,730.826
-
-print(homes.std())
-prices     2,341,841
-no_beds    1.272911
-baths      1.624744e+00
-sqft       1,623.837
-
-print(homes.min())
-prices                                           800
-address     1 Scott Cir NW #601 Washington DC 20036 
-no_beds                                            1
-baths                                              1
-sqft                                             616
-
-print(homes.quantile(q=0.25))
-prices     423,787.5
-no_beds         2.0
-baths           2.0
-sqft          996.0
 
 print(homes.quantile(q=0.5))
 prices     619,900.0
