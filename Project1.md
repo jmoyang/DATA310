@@ -12,32 +12,12 @@
       | 75% | 894,000 | 3 | 3 | 1878 |
       | Max |  18,000,000 | 8 | 11 | 10823 | 
 
-### Clean the housing data you obtained and create a number of usable features (independent variables) and targets (dependent variables). Set price as the response variable, and then set numbers of beds, number of bathrooms and total square footage as the predictors.
+   * As you can see from the data table as well as Figure 1, the distribution of the data points are extremly wide. However, I did not remove the outliers as the Sqft of the houses in Washington D.C could possibly be less impacted due to their dense population. 
 
 ### Following the previous model you specified (6 houses in Mathews), import your new data set and train a new model on your target and features.
 ### Write a one and a half to two page report on your results and include the following.
 ### A description of the housing data you scraped from zillow
 
-print(homes.quantile(q=0.5))
-prices     619,900.0
-no_beds         2.0
-baths           2.0
-sqft         1454.0
-
-
-print(homes.quantile(q=0.75))
-prices     894,000
-no_beds         3.0
-baths           3.0
-sqft         1878.5
-
-print(homes.max())
-prices                         18,000,000
-address     Bock Rd Oxon Hill MD 20745 
-no_beds                               8
-baths                                11
-sqft                              10823
-dtype: object
 
 ### A description of your model architecture
 ### An analysis of your model output
