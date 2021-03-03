@@ -43,4 +43,14 @@ The Mean Squared Error is:  5270751938437.771 (Scaled)
   <img src="loss(notscaled).png" width="550" height="505">                               
 
 ### An analysis of the output that assesses and ranks all homes from best to worst deal
-  [CSV With Results](jy_homes_DC.csv) 
+* The good deals are defined by the positive difference between the predicted and the observed price (Predicted - Observed = Positive/"Good Dea" --> observed value is less than the predicted price). On the other hand, the bad deals are defined by the negative difference between the preticed and the observed price (Predicted - Observed = Negative/"Bad Dea" --> observed value is greater than the predicted price) 
+* Interestingly, the most expensive house out of the data set is the worst deal out of 385 houses that were scrapped from Zillow.com. Also, as we can see, the zipcode doesn't really tell us anything (despite the data below being only two data sets from 385) as both the best and the worst deal are from the same zipcode.
+   *  Best Deal
+      *  | Observed Price | Address | # of Bed | # of Bath | Sqft | Predicited Price | Difference | Deal |
+         |-------|---------|----------|-----------|------|------------------|------------|----|
+         |$3,197,000 | 2005 48th St NW Washington DC 20007 | 6 | 6 | 8,050 |	$6,285,348.511	| $3,088,348.511	| Good Deal |
+   * Worst 
+      *  | Observed Price | Address | # of Bed | # of Bath | Sqft | Predicited Price | Difference | Deal |
+         |-------|---------|----------|-----------|------|------------------|------------|----|
+         |$18,000,000 |	3150 S St NW #PH2C & 1M Washington DC 20007 | 4 | 7 |	6,407 | $5,635,736.465 |$-12,364,263.53 | Bad Deal |
+* [CSV With Results](jy_homes_DC.csv) 
