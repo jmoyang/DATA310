@@ -32,8 +32,13 @@ The Mean Squared Error is:  5270751938437.771 (Scaled)
    <img src="code_project1.png" width="520" height="505">
  
 ### An analysis of your model output
+*  Also, we can see that, roughly, the observed prices are positively correlated to the predicted values. However, there are 
+   <img src="observedvspredic.png" width="520" height="505">
+
+
 * As you can see from the plots below, the loss function is pretty high despite the fact that I have cleaned out all the data one by one through Zillow.com. This means that there are errors across the samples/output created by the input data points. I do think that this is mainly caused by the geographical locations of our data point. Within Washington D.C there are places where housing prices are higher than that of other neighborhoods. Nevertheless, it will be hard to distinguish whether it is a expensive neighborhood or not based on zipcode, because zipcodes covers a large land. 
-   <img src="loss(notscaled).png" width="520" height="505">       <img src="observedvspredic.png" width="520" height="505">
+   <img src="loss(notscaled).png" width="520" height="505">                               
+
 
 
 
