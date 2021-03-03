@@ -31,19 +31,16 @@ The Mean Squared Error is:  5270751938437.771 (Scaled)
 * I have created a simple model based on the model we have gone over in class, using TensorFlow package. It uses number of bed rooms, bathrooms and square footage to train the model (3 layers of input). Which then, "learns" with the input datas to produce the optimal prices based on the number of beds, bathrooms and square foot. Then the predicted prices are inputted into a column called 'predict'. Then I calculated the price difference between the observed value from Zillow and the predicted value. Lastly, I created a new column called 'Deal' to distinguish whether or not the observed value is a 'Good Deal' or a 'Bad Deal'. There are 271 houses that were labeled as a "Good Deal" compared to the 114 houses that were labeld as a "Bad Deal"
    <img src="code_project1.png" width="520" height="505">
  
+
 ### An analysis of your model output
 *  Also, we can see that, roughly, the observed prices are positively correlated to the predicted values. However, there are several outliers in the scatter plot where the predicted prices are way higher than the observed prices. As you can tell, the performance of the model was poor, as the Mean Squared Error was:  1494717779858.386. This MSE is super high, meaning our model did not perform well because MSE of 0 means the model. Hence MSE of 1494717779858.386 shows us that the model is extremely biased. Lastly the mean absolute error was 558,928, which means that on average the prediction made by the model was off by $558,928. The mean housing value was $1,291,785, and if the model's MAE was 558,928, it is close to half of the mean housing value. 
   
-  <img src="observedvspredic.png" width="520" height="505">
+  <img src="observedvspredic.png" width="550" height="505">
 
 
 * As you can see from the plots below, the loss function is pretty high also, despite the fact that I have cleaned out all the data one by one through Zillow.com. This means that there are errors across the samples/output created by the input data points. I do think that this is mainly caused by the geographical locations of our data point. Within Washington D.C there are places where housing prices are higher than that of other neighborhoods. Nevertheless, it will be hard to distinguish whether it is a expensive neighborhood or not based on zipcode, because zipcodes covers a large land. 
   
-  <img src="loss(notscaled).png" width="520" height="505">                               
-
-
-
+  <img src="loss(notscaled).png" width="550" height="505">                               
 
 ### An analysis of the output that assesses and ranks all homes from best to worst deal
-### Include at least three plots that support your project report
-### Stretch goal: add a spatial variable to your feature set and compare with the original model. Did this improve the predictive power of your model? If so, how?
+  [CSV With Results](jy_homes_DC.csv) 
