@@ -29,33 +29,8 @@ The Mean Squared Error is:  5270751938437.771 (Scaled)
 
 ### A description of your model architecture
 * I have created a simple model based on the model we have gone over in class, using TensorFlow package. It uses number of bed rooms, bathrooms and square footage to train the model (3 layers of input). Which then, "learns" with the input datas to produce the optimal prices based on the number of beds, bathrooms and square foot. Then the predicted prices are inputted into a column called 'predict'. Then I calculated the price difference between the observed value from Zillow and the predicted value. Lastly, I created a new column called 'Deal' to distinguish whether or not the observed value is a 'Good Deal' or a 'Bad Deal'. There are 271 houses that were labeled as a "Good Deal" compared to the 114 houses that were labeld as a "Bad Deal"
-   * ```#Model, but scale first homes[['prices_scale']] = homes[['prices']]/100000 # prices homes[['sqft_scale']] = homes[['sqft']]/1000 # prices
+   * ![image](https://user-images.githubusercontent.com/78192904/109760817-5cbf2c00-7bbd-11eb-969e-5199e2c88d98.png)
 
-model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[3])])
-model.compile(optimizer='sgd', loss='mean_squared_error')
-
-x1 = np.array(homes.iloc[:,2], dtype =float)
-x2 = np.array(homes.iloc[:,3], dtype =float)
-x3 = np.array(homes.iloc[:,6], dtype =float)
-xs = np.stack([x1, x2, x3], axis=1)
-ys = np.array(homes.iloc[:,5], dtype =float)
-
-history = model.fit(xs, ys, epochs=500)
-
-p = model.predict(xs)
-#Input into DataFrame
-p = pd.DataFrame(p)
-
-#Predict then Difference
-homes[['predict']] = p*100000
-homes[['diff']] = homes['predict'] - homes['prices']
-
-#Good or Bad Deal?
-conditions = [
-    (homes['diff'] < 0),
-    (homes['diff'] >0)]
-values = ['Bad Deal', 'Good Deal']
-homes['Deal'] = np.select(conditions, values)
  
 ### An analysis of your model output
 
