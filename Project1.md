@@ -22,8 +22,8 @@
    * As you can see from the data table as well as Figure 1, the distribution of the data points are extremly wide. However, I did not remove the outliers as the Sqft of the houses in Washington D.C could possibly be less impacted due to their dense population. 
 
 
+The Mean Squared Error is:  1494717779858.386
 
-The Mean Squared Error is:  5590766503195.333 (Not scaled) 
 The Mean Squared Error is:  5270751938437.771 (Scaled)
 
 
@@ -32,12 +32,14 @@ The Mean Squared Error is:  5270751938437.771 (Scaled)
    <img src="code_project1.png" width="520" height="505">
  
 ### An analysis of your model output
-*  Also, we can see that, roughly, the observed prices are positively correlated to the predicted values. However, there are 
-   <img src="observedvspredic.png" width="520" height="505">
+*  Also, we can see that, roughly, the observed prices are positively correlated to the predicted values. However, there are several outliers in the scatter plot where the predicted prices are way higher than the observed prices. As you can tell, the performance of the model was poor, as the Mean Squared Error was:  1494717779858.386. This MSE is super high, meaning our model did not perform well because MSE of 0 means the model. Hence MSE of 1494717779858.386 shows us that the model is extremely biased. Lastly the mean absolute error was 558,928, which means that on average the prediction made by the model was off by $558,928. The mean housing value was $1,291,785, and if the model's MAE was 558,928, it is close to half of the mean housing value. 
+  
+  <img src="observedvspredic.png" width="520" height="505">
 
 
-* As you can see from the plots below, the loss function is pretty high despite the fact that I have cleaned out all the data one by one through Zillow.com. This means that there are errors across the samples/output created by the input data points. I do think that this is mainly caused by the geographical locations of our data point. Within Washington D.C there are places where housing prices are higher than that of other neighborhoods. Nevertheless, it will be hard to distinguish whether it is a expensive neighborhood or not based on zipcode, because zipcodes covers a large land. 
-   <img src="loss(notscaled).png" width="520" height="505">                               
+* As you can see from the plots below, the loss function is pretty high also, despite the fact that I have cleaned out all the data one by one through Zillow.com. This means that there are errors across the samples/output created by the input data points. I do think that this is mainly caused by the geographical locations of our data point. Within Washington D.C there are places where housing prices are higher than that of other neighborhoods. Nevertheless, it will be hard to distinguish whether it is a expensive neighborhood or not based on zipcode, because zipcodes covers a large land. 
+  
+  <img src="loss(notscaled).png" width="520" height="505">                               
 
 
 
