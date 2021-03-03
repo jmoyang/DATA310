@@ -24,6 +24,7 @@
 
 ### A description of your model architecture
 * I have created a simple model based on the model we have gone over in class, using TensorFlow package. It uses number of bed rooms, bathrooms and square footage to train the model (3 layers of input). I have divided/scaled the data point for the prices and square footage by dividing the prices by 100,000 and sqft by 1,000. Then, the "learns" with the input datas to produce the optimal prices based on the number of beds, bathrooms and square foot. Then the predicted prices are inputted into a column called 'predict'. Then I calculated the price difference between the observed value from Zillow and the predicted value. Lastly, I created a new column called 'Deal' to distinguish whether or not the observed value is a 'Good Deal' or a 'Bad Deal'. There are 271 houses that were labeled as a "Good Deal" compared to the 114 houses that were labeld as a "Bad Deal"
+   
    <img src="code_project1.png" width="520" height="505">
  
 
