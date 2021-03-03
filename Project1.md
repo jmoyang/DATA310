@@ -28,7 +28,7 @@ The Mean Squared Error is:  5270751938437.771 (Scaled)
 
 
 ### A description of your model architecture
-* I have created a simple model based on the model we have gone over in class, using TensorFlow package. It uses number of bed rooms, bathrooms and square footage to train the model (3 layers of input). Which then, "learns" with the input datas to produce the optimal prices based on the number of beds, bathrooms and square foot. Then the predicted prices are inputted into a column called 'predict'. Then I calculated the price difference between the observed value from Zillow and the predicted value. Lastly, I created a new column called 'Deal' to distinguish whether or not the observed value is a 'Good Deal' or a 'Bad Deal'. There are 271 houses that were labeled as a "Good Deal" compared to the 114 houses that were labeld as a "Bad Deal"
+* I have created a simple model based on the model we have gone over in class, using TensorFlow package. It uses number of bed rooms, bathrooms and square footage to train the model (3 layers of input). I have divided/scaled the data point for the prices and square footage by dividing the prices by 100,000 and sqft by 1,000. Then, the "learns" with the input datas to produce the optimal prices based on the number of beds, bathrooms and square foot. Then the predicted prices are inputted into a column called 'predict'. Then I calculated the price difference between the observed value from Zillow and the predicted value. Lastly, I created a new column called 'Deal' to distinguish whether or not the observed value is a 'Good Deal' or a 'Bad Deal'. There are 271 houses that were labeled as a "Good Deal" compared to the 114 houses that were labeld as a "Bad Deal"
    <img src="code_project1.png" width="520" height="505">
  
 
@@ -44,7 +44,8 @@ The Mean Squared Error is:  5270751938437.771 (Scaled)
 
 ### An analysis of the output that assesses and ranks all homes from best to worst deal
 * The good deals are defined by the positive difference between the predicted and the observed price (Predicted - Observed = Positive/"Good Dea" --> observed value is less than the predicted price). On the other hand, the bad deals are defined by the negative difference between the preticed and the observed price (Predicted - Observed = Negative/"Bad Dea" --> observed value is greater than the predicted price) 
-* Interestingly, the most expensive house out of the data set is the worst deal out of 385 houses that were scrapped from Zillow.com. Also, as we can see, the zipcode doesn't really tell us anything (despite the data below being only two data sets from 385) as both the best and the worst deal are from the same zipcode.
+* If we generalize about the results , the Top 10 "Good Deal" houses has at least 4 bed and 4 bath rooms and most of them being over $1 Million in observed prices and greater than 3,000sqft. However, the Top 10 "Bad Deal" houses have similar characteristics. Nevertheless, the Top 10 worst deals are huge mansions, with most of them being larger than 5,000sqft. If we think about how D.C is a compact city, buying a huge mansion is obviously going to be extremely expensive. Interestingly, the most expensive house out of the data set is the worst deal out of 385 houses that were scrapped from Zillow.com. Also, as we can see, the zipcode doesn't really tell us anything (despite the data below being only two data sets from 385) as both the best and the worst deal are from the same zipcode. 
+
    *  Best Deal
       *  | Observed Price | Address | # of Bed | # of Bath | Sqft | Predicited Price | Difference | Deal |
          |-------|---------|----------|-----------|------|------------------|------------|----|
