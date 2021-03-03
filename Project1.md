@@ -14,6 +14,13 @@
 
    * As you can see from the data table as well as Figure 1, the distribution of the data points are extremly wide. However, I did not remove the outliers as the Sqft of the houses in Washington D.C could possibly be less impacted due to their dense population. 
 
+
+
+The Mean Squared Error is:  5590766503195.333 (Not scaled) 
+The Mean Squared Error is:  5270751938437.771 (Scaled)
+
+
+
 ### Following the previous model you specified (6 houses in Mathews), import your new data set and train a new model on your target and features.
 ### Write a one and a half to two page report on your results and include the following.
 ### A description of the housing data you scraped from zillow
