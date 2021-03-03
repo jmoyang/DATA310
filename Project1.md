@@ -29,7 +29,7 @@ The Mean Squared Error is:  5270751938437.771 (Scaled)
 
 ### A description of your model architecture
 * I have created a simple model based on the model we have gone over in class, using TensorFlow package. It uses number of bed rooms, bathrooms and square footage to train the model (3 layers of input). Which then, "learns" with the input datas to produce the optimal prices based on the number of beds, bathrooms and square foot. Then the predicted prices are inputted into a column called 'predict'. Then I calculated the price difference between the observed value from Zillow and the predicted value. Lastly, I created a new column called 'Deal' to distinguish whether or not the observed value is a 'Good Deal' or a 'Bad Deal'. There are 271 houses that were labeled as a "Good Deal" compared to the 114 houses that were labeld as a "Bad Deal"
-   * ![image](https://user-images.githubusercontent.com/78192904/109760817-5cbf2c00-7bbd-11eb-969e-5199e2c88d98.png)
+   ![image](https://user-images.githubusercontent.com/78192904/109760817-5cbf2c00-7bbd-11eb-969e-5199e2c88d98.png)
 
  
 ### An analysis of your model output
