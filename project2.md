@@ -8,12 +8,14 @@
 * Output Are you able to use the feature selection penalty to tune your hyperparameter and remove any potentially irrelevant predictors? 
 
   <img src="best.png" width="750" height="405">
+  * Model 1 to Model 3 has the largest AUC of 0.616
+
 
 * Linear Regression Plot 
 
   <img src="lr_plot.png" width="550" height="500">
 
-  * Model 11(Penalty value of 0.00108) seems to be the best performing model out of all the models as we can see from the plot, the penalty value declines sharply around third point of the graph. 
+
 
   
 #### Are you able to use the feature selection penalty to tune your hyperparameter and remove any potentially irrelevant predictors? Provide justification for your selected penalty value? 
