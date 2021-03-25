@@ -9,7 +9,7 @@
 
   <img src="best.png" width="750" height="405">
   
-  * Model 1 to Model 3 has the largest AUC of 0.616
+  * Model 1 (penalty of 0.0001) to Model 12 (penalty of 0.00137) had the largest Mean AUC value of 0.620, and as you can see from the graph, even though it is very slight, the graph begins to fall off from the 12th point. I beleieve this 12th model point is where irrelevent predictors are removed, becauase the AUC value begins to decrease.
 
 
 * Linear Regression Plot 
@@ -20,9 +20,11 @@
 
   
 #### Are you able to use the feature selection penalty to tune your hyperparameter and remove any potentially irrelevant predictors? Provide justification for your selected penalty value? 
-* I sliced the model at 11 (Penalty value of 0.00108), since it was the best performing model out of 15 models that we produced in the beginning. Also, it seemed to have removed some irrelavent factors because this penalty has the highest AUC when I went through all possible values(1 to 15) for slicing. However, the difference was small. 
+* I sliced the model at 12 or (penalty of 0.00137), because it is the last model to have an AUC of 0.620. However, major fall off of AUC value does not happen until the 24th model. Nevertheless, the gradual decrease in AUC from model 1 to model 24 is great. (0.6203214 compared to 0.6043768). Therefore, I decided to pick the model where the value of the thousandth changes first. 
 
 
 #### Finally, provide your ROC plots and interpret them. How effective is your penalized logistic regression model at predicting each of the five wealth outcomes.
 
 <img src="lr_auc.png" width="550" height="500">
+
+* As you can see, the model 
