@@ -8,6 +8,7 @@
 * Output Are you able to use the feature selection penalty to tune your hyperparameter and remove any potentially irrelevant predictors? 
 
   <img src="best.png" width="750" height="405">
+  
   * Model 1 to Model 3 has the largest AUC of 0.616
 
 
