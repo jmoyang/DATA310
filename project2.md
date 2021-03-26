@@ -103,8 +103,11 @@
 * ##### Group 5
 <img src="Images/boost_pp_5.png" width="350" height="300">                         <img src="Images/boost_5.png" width="350" height="300">
 
-* 
+* It seems like boosted model is not much different from the rest of the models. The AUC did improve a little bit compared to linear regression model above interms of predicting Wealth group 2. However, most results look similar with 
 
 #### Analyze all four models. According to the evaluation metrics, which model produced the best results? 
 
 #### Were there any discrepancies among the five wealth outcomes from your DHS survey dataset?
+<img src="Images/dis.png" width="350" height="300">
+
+Huge discrepancy between Wealth level 1 and 5. 
