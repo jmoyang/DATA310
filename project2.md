@@ -62,24 +62,19 @@
 | 5 | 0.884265 |  0.3308910  | 0.3307253 | 0.702393 | 
 
 * ##### Group 1 (Predicted Probablities and ROC Curve)
-<img src="Images/linest_1.png" width="350" height="300">    
-<img src="Images/linest_1.png" width="350" height="300">
+<img src="Images/linest_1.png" width="350" height="300">                         <img src="Images/linest_1.png" width="350" height="300">
 
 * ##### Group 2 
-<img src="Images/linest_pp_2.png" width="350" height="300">
-<img src="Images/linest_2.png" width="350" height="300">
+<img src="Images/linest_pp_2.png" width="350" height="300">                      <img src="Images/linest_2.png" width="350" height="300">
 
 * ##### Group 3 
-<img src="Images/linest_pp_3.png" width="350" height="300">
-<img src="Images/linest_3.png" width="350" height="300">
+<img src="Images/linest_pp_3.png" width="350" height="300">                      <img src="Images/linest_3.png" width="350" height="300">
 
 * ##### Group 4
-<img src="Images/linest_pp_4.png" width="350" height="300">
-<img src="Images/linest_4.png" width="350" height="300">
+<img src="Images/linest_pp_4.png" width="350" height="300">                      <img src="Images/linest_4.png" width="350" height="300">
 
 * ##### Group 5
-<img src="Images/linest_pp_5.png" width="350" height="300">
-<img src="Images/linest_5.png" width="350" height="300">
+<img src="Images/linest_pp_5.png" width="350" height="300">                      <img src="Images/linest_5.png" width="350" height="300">
 
 
 #### Using the python script provided, train a gradient boosting model using decision trees with the tensorflow estimator. Provide evaluative metrics including a measure of accuracy and AUC. Produce the predicted probabilities plot as well as the ROC curve for each wealth outcome and interpret these results.
