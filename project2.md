@@ -54,7 +54,7 @@
 * ##### Table of Outcomes 
 
 | Wealth | Accuracy | Average_loss | Loss | AUC |
-|-------|----------|--------------|------|-------------|
+|-------|----------|--------------|------|--------|
 | 1 | 0.722621 |	0.5534895 | 0.5525514 | 0.655612 |
 | 2 | 0.760311   | 0.5471703  | 0.5466003 | 0.559349 |
 | 3 | 0.799777 | 0.4993141 | 0.4986266 | 0.545490 |
@@ -79,6 +79,15 @@
 * Interestingly, we can see a similar results here. The model does a terrible job of predicting Wealth Groups 2 and 3, and it predicted Group 1 and 4 relatively okay compared to 2 and 3. Lastly, it did a great job of predicting Group 5. Therefore, the ROC curves for the logistic regression model seem to have a similar performance compared to random forest model and the penalized linear regression model. 
 
 #### Using the python script provided, train a gradient boosting model using decision trees with the tensorflow estimator. Provide evaluative metrics including a measure of accuracy and AUC. Produce the predicted probabilities plot as well as the ROC curve for each wealth outcome and interpret these results.
+* ##### Table of Outcomes 
+| Wealth | Accuracy | Average_loss | Loss | AUC |
+|-------|----------|--------------|------|--------|
+| 1 |  0.726620 |	0.550428 | 0.550428|  0.661826 |
+| 2 | 0.758904  |0.544950  |  0.544950 |  0.576311 |
+| 3 | 0.798445| 0.500164 | 0.500164 | 0.542598 |
+| 4 | 0.835024  | 0.432673  | 0.432673 |  0.632628 |
+| 5 |  0.887449 | 0.323096  | 0.323096 | 0.707655 |
+
 
 #### Analyze all four models. According to the evaluation metrics, which model produced the best results? 
 
