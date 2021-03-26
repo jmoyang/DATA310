@@ -76,8 +76,7 @@
 * ##### Group 5
 <img src="Images/linest_pp_5.png" width="350" height="300">                      <img src="Images/linest_5.png" width="350" height="300">
 
-* Interestingly, we can see a similar results here.
-
+* Interestingly, we can see a similar results here. The model does a terrible job of predicting Wealth Groups 2 and 3, and it predicted Group 1 and 4 relatively okay compared to 2 and 3. Lastly, it did a great job of predicting Group 5. Therefore, the ROC curves for the logistic regression model seem to have a similar performance compared to random forest model and the penalized linear regression model. 
 
 #### Using the python script provided, train a gradient boosting model using decision trees with the tensorflow estimator. Provide evaluative metrics including a measure of accuracy and AUC. Produce the predicted probabilities plot as well as the ROC curve for each wealth outcome and interpret these results.
 
