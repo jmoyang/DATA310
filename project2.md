@@ -76,6 +76,8 @@
 * ##### Group 5
 <img src="Images/linest_pp_5.png" width="350" height="300">                      <img src="Images/linest_5.png" width="350" height="300">
 
+* Interestingly, we can see a similar results here.
+
 
 #### Using the python script provided, train a gradient boosting model using decision trees with the tensorflow estimator. Provide evaluative metrics including a measure of accuracy and AUC. Produce the predicted probabilities plot as well as the ROC curve for each wealth outcome and interpret these results.
 
