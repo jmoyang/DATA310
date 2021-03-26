@@ -88,6 +88,22 @@
 | 4 | 0.835024  | 0.432673  | 0.432673 |  0.632628 |
 | 5 |  0.887449 | 0.323096  | 0.323096 | 0.707655 |
 
+* ##### Group 1 (Predicted Probablities and ROC Curve)
+<img src="Images/boost_pp_1.png" width="350" height="300">                         <img src="Images/boost_1.png" width="350" height="300">
+
+* ##### Group 2 
+<img src="Images/boost_pp_2.png" width="350" height="300">                         <img src="Images/boost_2.png" width="350" height="300">
+
+* ##### Group 3 
+<img src="Images/boost_pp_3.png" width="350" height="300">                         <img src="Images/boost_3.png" width="350" height="300">
+
+* ##### Group 4
+<img src="Images/boost_pp_4.png" width="350" height="300">                         <img src="Images/boost_4.png" width="350" height="300">
+
+* ##### Group 5
+<img src="Images/boost_pp_5.png" width="350" height="300">                         <img src="Images/boost_5.png" width="350" height="300">
+
+* 
 
 #### Analyze all four models. According to the evaluation metrics, which model produced the best results? 
 
