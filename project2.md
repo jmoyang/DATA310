@@ -42,11 +42,13 @@
 * ##### AUC Plot
 <img src="last_rf_fit_auc.png" width="450" height="400">
 
-* As we can see from the graph above the penalized logistic regression performed similarly to the random forest model. Even the AUC plot shows a similar trend as the penalized logistic regression model. 
+* As we can see from the graph above the penalized logistic regression performed similarly to the random forest model. Even the AUC plot shows a similar trend as the penalized logistic regression model. Just like the penalized logistics regression, the random forest model had difficulty predicting Wealth Level 2 and 3, doing a mediocre job on predicting 1 and 4. Finally, it did a great job of predicting 5. Therefore, there aren't much change/difference between the two models' performance. 
 
 #### Are you able to provide a plot that supports the relative importance of each feature's contribution towards the predictive power of your random forest ensemble model?
 * ##### Output
 <img src="last_rf_fit.png" width="450" height="400">
+
+* It is apparent that the most important feature that contributes towards the predictive power of the random forest model is age, then followed by education, size and gender. If we think that the data points are from real-life survey filled out by real life people, the importance of the features above are not suprising. With higher age, there are higher chances that people are employed, but with diminishing return. Also, education will be another huge factor, because higher education jobs pay more compared to low educaiton jobs. Therefore, the results are not very surprising. 
 
 #### Using the python script provided, train a logistic regression model using the tensorflow estimator API and your DHS data, again with wealth as the target.  Again produce your ROC curves and interpret the results.
 
