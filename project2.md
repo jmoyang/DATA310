@@ -103,11 +103,12 @@
 * ##### Group 5
 <img src="Images/boost_pp_5.png" width="350" height="300">                         <img src="Images/boost_5.png" width="350" height="300">
 
-* It seems like boosted model is not much different from the rest of the models. The AUC did improve a little bit compared to linear regression model above interms of predicting Wealth group 2. However, most results look similar with 
+* It seems like boosted model is not much different from the rest of the models. The AUC did improve a little bit compared to linear regression model above interms of predicting Wealth group 2. However, most results show a similar trend with each other. The models did not do a great job predicting group 2 and 3 and did extremly well with group 5. 
 
 #### Analyze all four models. According to the evaluation metrics, which model produced the best results? 
+* The boosed model produced the best result out of the 4 models that we have created in this project. From model to model (penalized linear to boosted), the results showed gradual improvement. However, the improvements aren't drastic to a point where we can tell the difference with our naked eye, through the ROC curve. Nevertheless, the AUC values show us that boosted model did have the highest AUC (average of 0.624), which is not too far from orginial penalized linear regression. 
 
 #### Were there any discrepancies among the five wealth outcomes from your DHS survey dataset?
 <img src="Images/dis.png" width="350" height="300">
 
-Huge discrepancy between Wealth level 1 and 5. 
+* Huge discrepancy between Wealth group 1 and 5. Wealth group 1 nearly double the count compared to group 5. 
