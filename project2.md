@@ -51,6 +51,12 @@
 * It is apparent that the most important feature that contributes towards the predictive power of the random forest model is age, then followed by education, size and gender. If we think that the data points are from real-life survey filled out by real life people, the importance of the features above are not suprising. With higher age, there are higher chances that people are employed, but with diminishing return. Also, education will be another huge factor, because higher education jobs pay more compared to low educaiton jobs. Therefore, the results are not very surprising. 
 
 #### Using the python script provided, train a logistic regression model using the tensorflow estimator API and your DHS data, again with wealth as the target.  Again produce your ROC curves and interpret the results.
+{'accuracy': 0.72262126, 'average_loss': 0.55868214, 'loss': 0.55987954, 'global_step': 12670, 'auc': 0.6556121843871997}
+| Wealth | Accuracy | Average_loss | Loss | AUC |
+|-------|----------|--------------|------|-------------|
+| 1 |  0.7226212 |	0.5534895 | 0.5525514 | 0.655612
+| 2 | 0.7620881 | 0.54300654 | 0.54256284 | 12670 |
+| 3 | 0.8011107 | 0.49812627 | 0.4973861 | 12670 |
 
 #### Using the python script provided, train a gradient boosting model using decision trees with the tensorflow estimator. Provide evaluative metrics including a measure of accuracy and AUC. Produce the predicted probabilities plot as well as the ROC curve for each wealth outcome and interpret these results.
 
