@@ -62,7 +62,7 @@
 | 5 | 0.884265 |  0.3308910  | 0.3307253 | 0.702393 | 
 
 * ##### Group 1 (Predicted Probablities and ROC Curve)
-<img src="Images/linest_1.png" width="350" height="300">                         <img src="Images/linest_1.png" width="350" height="300">
+<img src="Images/linest_pp_1.png" width="350" height="300">                         <img src="Images/linest_1.png" width="350" height="300">
 
 * ##### Group 2 
 <img src="Images/linest_pp_2.png" width="350" height="300">                      <img src="Images/linest_2.png" width="350" height="300">
