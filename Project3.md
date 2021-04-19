@@ -44,23 +44,14 @@ By splitting the data into training and testing data set with the proportion of 
 
 ### Difference, ME and MSE of Both Models 
 
-* Difference 3D (LR)
-<img src="Images/3D_diff.png" width="300" height="300"> 
+* Difference 3D (LR & RF)
+<img src="Images/3D_diff.png" width="300" height="300">                          <img src="Images/rf_diff.png" width="300" height="300"> 
 
-* Difference 3D (RF) 
-<img src="Images/rf_diff.png" width="300" height="300"> 
+* ME 3D (LR & RF) 
+<img src="Images/lr_me.png" width="300" height="300">                            <img src="Images/rf_me.png" width="300" height="300"> 
 
-* ME 3D (LR) 
-<img src="Images/lr_me.png" width="300" height="300"> 
-
-* ME 3D (RF)
-<img src="Images/rf_me.png" width="300" height="300"> 
-
-* MSE (LR) 
-<img src="Images/lr_mse.png" width="250" height="50">
-
-* MSE (RF)
-<img src="Images/RF_mse.png" width="250" height="50">
+* MSE (LR & RF) 
+<img src="Images/lr_mse.png" width="250" height="50">                            <img src="Images/RF_mse.png" width="250" height="50">
 
 * As we can see from the images and the results above, the two models performed VERY similarly. However, we can say that the Random Forest model did perform a little bit better compared to than that of the Linear Regression model. The mean squared error of Random Forest is 5.322675, whereas the mean squared error of Linear Regression is 5.848116. Therefore, Random Forest model have performed better since it is closer to 0. However, according to the 3D plot of ME of both models, RF seem to perform worse compared to LR. Nevertheles, the difference seem to be very minimal. Also, I do not know why the MSE values came out better for Random Forest compared to Linear Regression, it is possible that I have made a mistake during the calculation process. Lastely, the errors in population prediction seems to concentrate in urban areas, mostly Tirana for both models. Therefore, in conclusion, I believe that the two model performed more similarly than different.
 
