@@ -25,7 +25,8 @@ By splitting the data into training and testing data set with the proportion of 
 * ##### Population Difference Between Worldpop and Predicted value
 <img src="Images/diff_sums(alb).png" width="300" height="300"> 
 
-   * As we can see from the results above, the population difference shows that the majority of the area in Albania were on point with the actual population data from Worldpop (colored in greenish-yellow color). The model did have a couple of under and over predictions, represented by the color green and redish pink colors respectively. The areas of the under and over predictions are in the areas that is in the middle of Albania and is represented, where it is presented by green in population sum plot. The area of most error or under/over prediction is around Tirane, which is the capital of Albania. Also, almost half of the population of Albania lives in Tirane and Durres. Nevertheless, the overall model was great at predicting the population of Albania, as it is shown above (total actual population of 2,762,201 and predicted population of 2,764,784). 
+   * As we can see from the results above, the population difference shows that the majority of the area in Albania were on point with the actual population data from Worldpop (colored in greenish-yellow color). The model did have a couple of under and over predictions, represented by the color green and redish pink colors respectively. The areas of the under and over predictions are in the areas that is in the middle of Albania and is represented, where it is presented by green in population sum plot. The area of most error or under/over prediction is around Tirana, which is the capital of Albania. Also, almost half of the population of Albania lives in Tirane and Durres. Nevertheless, the overall model was great at predicting the population of Albania, as it is shown above (total actual population of 2,762,201 and predicted population of 2,764,784). 
+
 
 ### Random Forest Model
 
@@ -39,7 +40,27 @@ By splitting the data into training and testing data set with the proportion of 
 * ##### Population Difference Between Worldpop and Predicted value
 <img src="Images/random.png" width="300" height="300"> 
 
-* Similar to Linear Regression model the major under and over prediction occured at the middle of the country. However, rest of the country are on par with the actual population data from Woldpop. 
+* Similar to Linear Regression model the major under and over prediction occured at the middle of the country (near Tirana). The under and over prediction is represented by green and pinkish-red respectively. However, rest of the country are on par with the actual population data from Woldpop. 
 
+### Difference, ME and MSE of Both Models 
 
+* Difference 3D (LR)
+<img src="Images/3D_diff.png" width="300" height="300"> 
+
+* Difference 3D (RF) 
+<img src="Images/rf_diff.png" width="300" height="300"> 
+
+* ME 3D (LR) 
+<img src="Images/lr_me.png" width="300" height="300"> 
+
+* ME 3D (RF)
+<img src="Images/rf_me.png" width="300" height="300"> 
+
+* MSE (LR) 
+<img src="Images/lr_mse.png" width="200" height="70">
+
+* MSE (RF)
+<img src="Images/rf_mse.png" width="200" height="70">
+
+* As we can see from the images and the results above, the two models performed VERY similarly. However, we can say that the Random Forest model did perform a little bit better compared to than that of the Linear Regression model. The mean squared error of Random Forest is 5.322675, whereas the mean squared error of Linear Regression is 5.848116. Therefore, Random Forest model have performed better since it is closer to 0. However, according to the 3D plot of ME of both models, RF seem to perform worse compared to LR. Nevertheles, the difference seem to be very minimal. Also, I do not know why the MSE values came out better for Random Forest compared to Linear Regression, it is possible that I have made a mistake during the calculation process.
 
