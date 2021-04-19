@@ -1,12 +1,12 @@
 # Project 3 (April 18th) 
 
-### Country: Albania 
+## Country: Albania 
 
-#### About the Data 
+### About the Data 
 * This project holds raster data sets and a single shape file from GDAM and Worldpop. I am continuing this project with the country of my choice from DHS project (Project 2). 
 Albania beign a small country, I decided to run LR model and RF model on the whole entire country. The country of Albania is divided into 12 different counties and 375 units of local governance.
 
-#### Linear Regression Model 
+### Linear Regression Model 
 * Using the 2015 population data for Albania, I utilitzed the linear regression model that we went over in classs. 
 By splitting the data into training and testing data set with the proportion of 4/5, the model was able to predict the following number of population in Albania. 
   * <img src="Images/LR_ouptut.png" width="250" height="70">  
@@ -16,6 +16,7 @@ By splitting the data into training and testing data set with the proportion of 
   * <img src="Images/alb_density.png" width="150" height="250">  
 * As we can see the result from above, the predicted total sums of the population is very much mimics the actual population density map of Albania. Most of the population are concentrated in the mid-coast, land area of Albania.  
 
+#### Results 
 * <img src="Images/pop_sums.png.png" width="300" height="300"> 
 
 
