@@ -12,7 +12,7 @@ By splitting the data into training and testing data set with the proportion of 
   * <img src="Images/LR_ouptut.png" width="250" height="70">  
 * As we can see from the results above, the actual total population within this model of Albania is 2,762,201 and the predicted population is 2,764,784. The numbers are off by only 2,583, which is only about 1/1000 of the actual population.
 
-* Predicted Total Sums 
+* ##### Predicted Total Sums 
    
    <img src="Images/predicted_total_sums(LR).png" width="300" height="300">                            <img src="Images/alb_density.png" width="150" height="250">  
    
@@ -36,11 +36,13 @@ By splitting the data into training and testing data set with the proportion of 
 
 * The model has generated the least amount of error at around 1 or 2 trees. I have tried to improve the model by trying to modify the model with different mtry numbers. 
 
-* #### Modified Model (mntry = 4)
+* Modified Model (mntry = 4)
 
 <img src="Images/rf_mntry4.png" width="450" height="400"> 
 
-* As we can see from the output above, the model has improved a little bit compared to the original output. mntry is the number of variables available for splitting at each tree node, which is randomly sampled as candidates at each split. This increases strength of each trees, however cannot go above the the number of variables. After trial and error, mtry = 4 came out to be the most optimal level. 
+* As we can see from the output above, the model has improved a little bit compared to the original output. mntry is the number of variables available for splitting at each tree node, which is randomly sampled as candidates at each split. This increases strength of each trees, however cannot go above the the number of variables. After trial and error, mtry = 4 came out to be the most optimal level. However, there was an error at > population_adm3 <- rasterize(alb_adm3, predicted_values_sums, field="pop15") statement. Therefore, I will be only presenting the original randomforest model we went over it in class unfortunately from now on. 
+
+* #### Originial Model from now on
 
 <img src="Images/LR_ouptut.png" width="250" height="70">
 
@@ -56,15 +58,15 @@ By splitting the data into training and testing data set with the proportion of 
 
 ### Difference, ME and MSE of Both Models (Not Modified outputs) 
 
-* Difference 3D (LR & RF)
+* ##### Difference 3D (LR & RF)
 
 <img src="Images/3D_diff.png" width="300" height="300">                          <img src="Images/rf_diff.png" width="300" height="300"> 
 
-* ME 3D (LR & RF) 
+* ##### ME 3D (LR & RF) 
 
 <img src="Images/lr_me.png" width="300" height="300">                            <img src="Images/rf_me.png" width="300" height="300"> 
 
-* MSE (LR & RF) 
+* ##### MSE (LR & RF) 
 
 <img src="Images/lr_mse.png" width="250" height="50">                            <img src="Images/RF_mse.png" width="250" height="50">
 
