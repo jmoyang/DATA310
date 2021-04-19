@@ -10,7 +10,8 @@ Albania beign a small country, I decided to run LR model and RF model on the who
 * Using the 2015 population data for Albania, I utilitzed the linear regression model that we went over in classs. 
 By splitting the data into training and testing data set with the proportion of 4/5, the model was able to predict the following number of population in Albania. 
   * <img src="Images/LR_ouptut.png" width="250" height="70">  
-* As we can see from the results above, the actual total population within this model of Albania is 2,762,201 and the predicted population is 2,764,784. 
+* As we can see from the results above, the actual total population within this model of Albania is 2,762,201 and the predicted population is 2,764,784. The numbers are off by only 2,583, which is only about 1/1000 of the actual population.
+
 * Predicted Total Sums 
    
    <img src="Images/predicted_total_sums(LR).png" width="300" height="300">                            <img src="Images/alb_density.png" width="150" height="250">  
@@ -24,19 +25,21 @@ By splitting the data into training and testing data set with the proportion of 
 * ##### Population Difference Between Worldpop and Predicted value
 <img src="Images/diff_sums(alb).png" width="300" height="300"> 
 
-   * As we can see from the results above, the population difference shows that the majority of the area in Albania were on point with the actual population data from Worldpop (colored in greenish-yellow color). The model did have a couple of under and over predictions, represented by the color green and redish pink colors respectively. The areas of the under and over predictions are in the areas that is in the middle of Albania and is represented, where it is presented by green in population sum plot. Nevertheless, the overall model was great at predicting the population of Albania, as it is shown above (total actual population of 2,762,201 and predicted population of 2,764,784). 
+   * As we can see from the results above, the population difference shows that the majority of the area in Albania were on point with the actual population data from Worldpop (colored in greenish-yellow color). The model did have a couple of under and over predictions, represented by the color green and redish pink colors respectively. The areas of the under and over predictions are in the areas that is in the middle of Albania and is represented, where it is presented by green in population sum plot. The area of most error or under/over prediction is around Tirane, which is the capital of Albania. Also, almost half of the population of Albania lives in Tirane and Durres. Nevertheless, the overall model was great at predicting the population of Albania, as it is shown above (total actual population of 2,762,201 and predicted population of 2,764,784). 
 
 ### Random Forest Model
 
 <img src="Images/LR_ouptut.png" width="250" height="70">
 
-* As we can see from above, that the random forest model also did a good job of predicting the population of Albania. As we can see from the image above, the model predicted 2,764,702, where as the acutal total population is 2,762,201. 
+* As we can see from above, that the random forest model also did a good job of predicting the population of Albania. As we can see from the image above, the model predicted 2,764,702, where as the acutal total population is 2,762,201. Similarly to the linear regression model, this random forest model was only off by 2,501 from the actual total population.
 
 * ##### Population Sum
 <img src="Images/rf.png" width="300" height="300"> 
 
 * ##### Population Difference Between Worldpop and Predicted value
 <img src="Images/random.png" width="300" height="300"> 
+
+* Similar to Linear Regression model the major under and over prediction occured at the middle of the country. However, rest of the country are on par with the actual population data from Woldpop. 
 
 
 
