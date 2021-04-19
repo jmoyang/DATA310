@@ -17,13 +17,13 @@ By splitting the data into training and testing data set with the proportion of 
 * As we can see the result from above, the predicted total sums of the population is very much mimics the actual population density map of Albania. Most of the population are concentrated in the mid-coast, land area of Albania.  
 
 #### Results 
-* Population Sum
+* ##### Population Sum
 <img src="Images/pop_sums.png.png" width="300" height="300"> 
 
-* Population Difference Between Worldpop and Predicted value
+* ##### Population Difference Between Worldpop and Predicted value
 <img src="Images/diff_sums(alb).png" width="300" height="300"> 
 
-   * 
+   * As we can see from the results above, the population sum shows that 
 
 Using two machine learning methods predict population values at 100 x 100 meter resolution throughout your selected country
 Validate the two models using different methods presented in this class
