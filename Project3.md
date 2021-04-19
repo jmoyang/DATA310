@@ -13,7 +13,8 @@ By splitting the data into training and testing data set with the proportion of 
 * As we can see from the results above, the model predicted 2,762,201 as the total population of Albania, where as there were a total of 2,764,784. 
 * Predicted Total Sums 
    
-   <img src="Images/predicted_total_sums(LR).png" width="300" height="300">                        <img src="Images/alb_density.png" width="150" height="250">  
+   <img src="Images/predicted_total_sums(LR).png" width="300" height="300">                            <img src="Images/alb_density.png" width="150" height="250">  
+   
 * As we can see the result from above, the predicted total sums of the population is very much mimics the actual population density map of Albania. Most of the population are concentrated in the mid-coast, land area of Albania.  
 
 #### Results 
