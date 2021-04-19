@@ -9,7 +9,9 @@ Albania beign a small country, I decided to run LR model and RF model on the who
 #### Linear Regression Model 
 * Using the 2015 population data for Albania, I utilitzed the linear regression model that we went over in classs. 
 By splitting the data into training and testing data set with the proportion of 4/5, the model was able to predict the following number of population in Albania. 
-  * <img src="Images/LR_output.png" width="200" height="100">  
+  * <img src="Images/LR_ouptut.png" width="250" height="70">  
+* As we can see from the results above, the model predicted 2,762,201 as the total population of Albania, where as there were a total of 2,764,784. 
+  * <img src="Images/predicted_total_sums(LR).png" width="300" height="300">  
 
 
 Using two machine learning methods predict population values at 100 x 100 meter resolution throughout your selected country
