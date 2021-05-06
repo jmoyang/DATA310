@@ -6,9 +6,11 @@
     * Specific sneakers' transaction compared to the overall transaction. 
 
 ## The Data
-* The data I will be using is from Kaggle, but it was originally from the StockX Data Contest in 2019. It holds about 10,000 random sample data points of all OFF-White x Nike and Yeezy 350 sales between 9/1/2017 to 2/12/2019. There are 99,956 total sales in the data set, with 27,794 of them being Off-White sales and the rest of them being Yeezy sales (72,162). This data set consists of U.S sales only. However, in order to depict the accuracy of the model, to see which features had the most impact on the prediction prices, I will be focusing on the 72,162 transaction of Adidas Yeezy Boost 350 sneakers. 
+* The data I will be using is from Kaggle, but it was originally from the StockX Data Contest in 2019. It holds about 10,000 random sample data points of all OFF-White x Nike and Yeezy 350 sales between 9/1/2017 to 2/12/2019. There are 99,956 total sales in the data set, with 27,794 of them being Off-White sales and the rest of them being Yeezy sales (72,162). This data set consists of U.S sales only. However, in order to depict the accuracy of the model, to see which features had the most impact on the prediction prices, I will be focusing on the 72,162 transaction of Adidas Yeezy Boost 350 sneakers. Much of the information needed for the model is provided by the data set. 
   * The popularity and raity of Off-White and Adidas Yeezy Boost 350 sneakers vary. 
+    * [Source](https://www.kaggle.com/hudsonstuck/stockx-data-contest)  
 
 ## Method 
-* I will be using linear regression machine learning method to depict the impact of each features (size, color, popularity). 
+* I will be extracting the Adidas Yeezy Boost data points only from the data set and of course clean the data to be ready for the model. Then, I will be using linear regression machine learning method to depict the impact of each features (size, color, popularity). I am currently in the works of building a model. However, I am building off from the model created by [Sergio Pessoa](https://www.kaggle.com/sslp23/analyzing-yeezy-s-market), which is simple and easy to interpret. I will be having a few different models with different features (size, color, popularity) as a variable rather than focusing on the shoe size like Pessoa has done in his model in order to see which is a defining feature and of course to create the best predicting model. 
+  * I will definately create a model with all features as I believe that all three features of the sneakers have an impact on the resell prices. 
 
