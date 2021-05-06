@@ -14,3 +14,4 @@
 * I will be extracting the Adidas Yeezy Boost data points only from the data set and of course clean the data to be ready for the model. Then, I will be using linear regression machine learning method to depict the impact of each features (size, color, popularity). I am currently in the works of building a model. However, I am building off from the model created by [Sergio Pessoa](https://www.kaggle.com/sslp23/analyzing-yeezy-s-market), which is simple and easy to interpret. I will be having a few different models with different features (size, color, popularity) as a variable rather than focusing on the shoe size like Pessoa has done in his model in order to see which is a defining feature and of course to create the best predicting model. 
   * I will definately create a model with all features as I believe that all three features of the sneakers have an impact on the resell prices. 
 
+## Preliminary Model Performance
