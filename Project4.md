@@ -1,4 +1,4 @@
-# Plans for the Final Project 
+# Plans for the Final Project (Project 4/Update on Informal Response)
 
 ## Problem Statement 
 * Sneaker industry is a major industry of investment. According to Cowen, an investment firm, the sneaker resell market is projected to grow up to be an $30 Billion industry by 2030. Sneakers are growing more popularity as they become an important part of the pop culture worldwide. With the rising popularity pushing consumers into the sneaker market, popular manufacturers such as Nike and Adidas keep a super tight control over its distribution through their apps (SNKRS and Adidas app) and their official retailers. However, with the rising need or the demand for these limited supply sneakers pushes consumers to the resell market, increasing the need for a resell market. Over the years, we have been seeing a huge rise in the resell market. Now there are companies like StockX and Goat, that specifically deals with sneaker and clothing resell. StockX generated up to $400 Million in revenue in 2020, despite the COVID-19 Pandemic. Nevertheless, there is a single question that I had, what makes the resell prices the resell prices? In other words, what variables have an impact on resell prices? Is it the color of the shoes? Size of the shoes? or is it the popularity of the shoes? 
@@ -15,3 +15,9 @@
   * I will definately create a model with all features as I believe that all three features of the sneakers have an impact on the resell prices. 
 
 ## Preliminary Model Performance
+* I am expecting the model perform similarly to the one created by Pessoa. However, since I will be having more variables or features added on to the model. According to _Towards Data Science_ (sourced below), as we add more variable to the regression, the results should improve as adding more variables improves the fit. Therefore, , I am expecting my model to perform much better. 
+
+
+#### 
+* Sources: 
+  * [_Understanding Multiple Regression_](https://towardsdatascience.com/understanding-multiple-regression-249b16bde83e) 
