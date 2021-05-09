@@ -17,3 +17,4 @@ Hello. My name is Jeong Mo (J.Mo) Yang and I am from Seoul, South Korea. I am a 
 * [Project 1](Project1.md)
 * [Project 2](project2.md)
 * [Project 3](Project3.md)
+* [Project 4: Final Project Planning](Project4.md)
