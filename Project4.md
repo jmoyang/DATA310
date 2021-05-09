@@ -15,9 +15,8 @@
   * I will definately create a model with all features as I believe that all three features of the sneakers have an impact on the resell prices. 
 
 ## Preliminary Model Performance
-* I am expecting the model perform similarly to the one created by Pessoa. However, since I will be having more variables or features added on to the model. According to _Towards Data Science_ (sourced below), as we add more variable to the regression, the results should improve as adding more variables improves the fit. Therefore, , I am expecting my model to perform much better. 
-
-
-#### 
+* I am expecting the model perform similarly to the one created by Pessoa. However, since I will be having more variables or features added on to the model. According to _Towards Data Science_ (sourced below), as we add more variable to the regression, the results should improve as adding more variables improves the fit. Therefore, , I am expecting my model to perform much better. Also, in terms of finding the significant factor of the sneakers' resell prices, Roger Wu (sourced below), a student at Northwestern University found that collaborated pairs of sneakers with the sneaker brand and another brand, the resell value tend to be higher than those of those that are not. Also, Wu found that brand names (Nike, Air Jodan and Adidas in his research) have equal effect on the resell value. However, interestingly, Wu found older sneakers tesnd ot have higher resell value. Although, Wu's findings are not too related to the research I will be doing, other than the time factor, his findings are very interesting.
+ 
 * Sources: 
   * [_Understanding Multiple Regression_](https://towardsdatascience.com/understanding-multiple-regression-249b16bde83e) 
+  * [_Roger Wu, The "Right" Price for Collectible Sneakers: A Predictive Analysis on the Sneaker Resale Market_](https://mmss.wcas.northwestern.edu/thesis/articles/get/1048/wuroger_78337_9062452_Wu.Roger.Thesis.2020.pdf) 
