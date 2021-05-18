@@ -4,6 +4,7 @@
 #### [Abstract](Abstract.md)
 #### [Presentation](https://docs.google.com/presentation/d/1yiF4CUviTVGnEkYT1BB2eWDVYufElabIkEe74IZEx1o/edit#slide=id.gd927874ebe_0_23) 
 #### [Presentation Video](Images/zoom_0.mp4) 
+* Video wouldn't upload to YouTube. Please download the Zoom recorded MP4 File (link above)
 #### Sources
 * ##### Time
         (https://www.geeksforgeeks.org/how-to-change-the-pandas-datetime-format-in-python/)
